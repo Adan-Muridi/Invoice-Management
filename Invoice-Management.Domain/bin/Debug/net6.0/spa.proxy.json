@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "",
+"LaunchCommand": "",
+"WorkingDirectory": "C:\\Users\\jazzy\\source\\repos\\Invoice-Management\\Invoice-Management.Domain",
+"MaxTimeoutInSeconds": "120"
+}
+}

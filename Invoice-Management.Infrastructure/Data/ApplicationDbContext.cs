@@ -1,10 +1,15 @@
-﻿using Duende.IdentityServer.EntityFramework.Options;
-using Invoice_Management.Api.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Duende.IdentityServer.EntityFramework.Options;
+using Invoice_Management.Infrastructure.Models;
 using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace Invoice_Management.Api.Data
+namespace Invoice_Management.Infrastructure.Data
 {
     public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>
     {

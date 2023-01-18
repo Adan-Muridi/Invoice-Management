@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿//using Microsoft.AspNetCore.Identity;
 
-namespace Invoice_Management.Api.Models
-{
-    public class ApplicationUser : IdentityUser
-    {
-    }
-}
+//namespace Invoice_Management.Api.Models
+//{
+//    public class ApplicationUser : IdentityUser
+//    {
+//    }
+//}

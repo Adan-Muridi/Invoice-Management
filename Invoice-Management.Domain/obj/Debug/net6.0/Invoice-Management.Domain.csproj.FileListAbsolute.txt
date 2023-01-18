@@ -1,0 +1,16 @@
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\bin\Debug\net6.0\spa.proxy.json
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\bin\Debug\net6.0\Invoice-Management.Domain.deps.json
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\bin\Debug\net6.0\Invoice-Management.Domain.runtimeconfig.json
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\bin\Debug\net6.0\Invoice-Management.Domain.dll
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\bin\Debug\net6.0\Invoice-Management.Domain.pdb
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\obj\Debug\net6.0\Invoice-Management.Domain.csproj.AssemblyReference.cache
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\obj\Debug\net6.0\spa.proxy.json
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\obj\Debug\net6.0\Invoice-Management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\obj\Debug\net6.0\Invoice-Management.Domain.AssemblyInfoInputs.cache
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\obj\Debug\net6.0\Invoice-Management.Domain.AssemblyInfo.cs
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\obj\Debug\net6.0\Invoice-Management.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\obj\Debug\net6.0\Invoice-Management.Domain.dll
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\obj\Debug\net6.0\refint\Invoice-Management.Domain.dll
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\obj\Debug\net6.0\Invoice-Management.Domain.pdb
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\obj\Debug\net6.0\Invoice-Management.Domain.genruntimeconfig.cache
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Domain\obj\Debug\net6.0\ref\Invoice-Management.Domain.dll

@@ -1,0 +1,16 @@
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\bin\Debug\net6.0\spa.proxy.json
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\bin\Debug\net6.0\Invoice-Management.Infrastructure.deps.json
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\bin\Debug\net6.0\Invoice-Management.Infrastructure.runtimeconfig.json
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\bin\Debug\net6.0\Invoice-Management.Infrastructure.dll
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\bin\Debug\net6.0\Invoice-Management.Infrastructure.pdb
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\Invoice-Management.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\spa.proxy.json
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\Invoice-Management.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\Invoice-Management.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\Invoice-Management.Infrastructure.AssemblyInfo.cs
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\Invoice-Management.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\Invoice-Management.Infrastructure.dll
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\refint\Invoice-Management.Infrastructure.dll
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\Invoice-Management.Infrastructure.pdb
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\Invoice-Management.Infrastructure.genruntimeconfig.cache
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\ref\Invoice-Management.Infrastructure.dll

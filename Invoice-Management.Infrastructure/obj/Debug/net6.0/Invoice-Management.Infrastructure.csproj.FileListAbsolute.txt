@@ -14,3 +14,8 @@ C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure
 C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\Invoice-Management.Infrastructure.pdb
 C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\Invoice-Management.Infrastructure.genruntimeconfig.cache
 C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\ref\Invoice-Management.Infrastructure.dll
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\bin\Debug\net6.0\Invoice-Management.Application.dll
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\bin\Debug\net6.0\Invoice-Management.Domain.dll
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\bin\Debug\net6.0\Invoice-Management.Application.pdb
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\bin\Debug\net6.0\Invoice-Management.Domain.pdb
+C:\Users\jazzy\source\repos\Invoice-Management\Invoice-Management.Infrastructure\obj\Debug\net6.0\Invoice-Management.Infrastructure.csproj.CopyComplete

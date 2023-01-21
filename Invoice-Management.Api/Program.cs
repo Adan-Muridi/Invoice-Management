@@ -1,5 +1,7 @@
 //using Invoice_Management.Api.Data;
 //using Invoice_Management.Api.Models;
+using Invoice_Management.Api.Services;
+using Invoice_Management.Application.Common.Interfaces;
 using Invoice_Management.Infrastructure;
 using Invoice_Management.Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication;
@@ -23,6 +25,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 //builder.Services.AddAuthentication()
 //    .AddIdentityServerJwt();
+builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 builder.Services.AddInfraStructure(builder.Configuration);
 
 builder.Services.AddControllersWithViews();

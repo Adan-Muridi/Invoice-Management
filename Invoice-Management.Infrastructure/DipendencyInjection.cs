@@ -1,4 +1,5 @@
-﻿using Invoice_Management.Infrastructure.Data;
+﻿using Invoice_Management.Application.Common.Interfaces;
+using Invoice_Management.Infrastructure.Data;
 using Invoice_Management.Infrastructure.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,7 @@ namespace Invoice_Management.Infrastructure
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
+            services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
 
             services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();

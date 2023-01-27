@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Invoice_Management.Application.Invoices.DTOs
 {
-    internal class InvoiceItemDTO
+    public class InvoiceItemDTO
     {
         public int Id { get; set; }
         public string? Item { get; set; }

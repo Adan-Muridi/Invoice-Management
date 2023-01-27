@@ -26,6 +26,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 //builder.Services.AddAuthentication()
 //    .AddIdentityServerJwt();
+builder.Services.AddSwaggerGen(); // Swagger not working properly
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 builder.Services.AddInfraStructure(builder.Configuration);
 builder.Services.AddApplication();
@@ -35,9 +36,12 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseSwagger(); // Swagger not working properly
+    app.UseSwaggerUI();
     app.UseMigrationsEndPoint();
 
     using (var scope = app.Services.CreateScope())

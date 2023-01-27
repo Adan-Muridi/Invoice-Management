@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Invoice_Management.Application.Invoices.Handlers
 {
-    internal class CreateInvoiceCommandHandler : IRequestHandler<CreateInvoiceCommand, int>
+    public class CreateInvoiceCommandHandler : IRequestHandler<CreateInvoiceCommand, int>
     {
         private readonly IApplicationDbContext _applicationDbContext;
 

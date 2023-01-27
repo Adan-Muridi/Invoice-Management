@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Invoice_Management.Application.Invoices.Commands
 {
-    internal class CreateInvoiceCommand : IRequest<int>
+    public class CreateInvoiceCommand : IRequest<int>
     {
         public CreateInvoiceCommand()
         {

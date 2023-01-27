@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Invoice_Management.Application.Invoices.Validators
 {
-    internal class CreateInvoiceCommandValidators : AbstractValidator<CreateInvoiceCommand>
+    public class CreateInvoiceCommandValidators : AbstractValidator<CreateInvoiceCommand>
     {
         public CreateInvoiceCommandValidators()
         {

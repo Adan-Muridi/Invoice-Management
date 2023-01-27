@@ -17,11 +17,13 @@ namespace Invoice_Management.Infrastructure
     {
         public static IServiceCollection AddInfraStructure(this IServiceCollection services, IConfiguration configuration)
         {
-            //var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
-            services.AddDatabaseDeveloperPageExceptionFilter();
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
+                b=>b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+
             services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
+
+            services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();

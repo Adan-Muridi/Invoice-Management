@@ -12,6 +12,6 @@ namespace Invoice_Management.Application.Common.Interfaces
     {
         DbSet<Invoice> Invoices { get; set; }
         DbSet<InvoiceItem> InvoiceItems { get; set; }
-        Task<int> SaveChangesAsync( CancellationToken cancellationToken);
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }
 }

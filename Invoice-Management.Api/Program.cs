@@ -1,6 +1,7 @@
 //using Invoice_Management.Api.Data;
 //using Invoice_Management.Api.Models;
 using Invoice_Management.Api.Services;
+using Invoice_Management.Application;
 using Invoice_Management.Application.Common.Interfaces;
 using Invoice_Management.Infrastructure;
 using Invoice_Management.Infrastructure.Data;
@@ -27,6 +28,7 @@ var builder = WebApplication.CreateBuilder(args);
 //    .AddIdentityServerJwt();
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 builder.Services.AddInfraStructure(builder.Configuration);
+builder.Services.AddApplication();
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();

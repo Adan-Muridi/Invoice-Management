@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zQzFPNAbt1dXgvb/NIFVkOJAgNDoKAbNWArrAyUVB8b9z+fm4y7h2sINcaj8Yhc29G52vTvqUBjS/l3j+GMWfg==",
+  "dgSpecHash": "KmMKw/6HNptGqFvvpLlvDIODzWbjsQbhlSYnb3zaNgMV1ozn9DqUxMViN4F5AS0Zn9Q1lXhInedUbk4SURaJuw==",
   "success": true,
   "projectFilePath": "C:\\Users\\jazzy\\source\\repos\\Invoice-Management\\Invoice-Management.Application\\Invoice-Management.Application.csproj",
   "expectedPackageFiles": [
@@ -10,8 +10,13 @@
     "C:\\Users\\jazzy\\.nuget\\packages\\duende.identityserver.entityframework\\5.2.0\\duende.identityserver.entityframework.5.2.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\duende.identityserver.entityframework.storage\\5.2.0\\duende.identityserver.entityframework.storage.5.2.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\duende.identityserver.storage\\5.2.0\\duende.identityserver.storage.5.2.0.nupkg.sha512",
+    "C:\\Users\\jazzy\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\jazzy\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.4.0\\fluentvalidation.dependencyinjectionextensions.11.4.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\identitymodel\\5.1.0\\identitymodel.5.1.0.nupkg.sha512",
+    "C:\\Users\\jazzy\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\jazzy\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\jazzy\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\microsoft.aspnetcore.apiauthorization.identityserver\\6.0.7\\microsoft.aspnetcore.apiauthorization.identityserver.6.0.7.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.7\\microsoft.aspnetcore.authentication.jwtbearer.6.0.7.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",

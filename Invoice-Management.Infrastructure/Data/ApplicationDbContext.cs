@@ -17,6 +17,7 @@ namespace Invoice_Management.Infrastructure.Data
     public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, IApplicationDbContext
     {
         private readonly ICurrentUserService _currentUserService;
+
         public ApplicationDbContext(DbContextOptions options, IOptions<OperationalStoreOptions> operationalStoreOptions,
             ICurrentUserService currentUserService)
             : base(options, operationalStoreOptions)

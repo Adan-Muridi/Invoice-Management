@@ -17,7 +17,8 @@ namespace Invoice_Management.Application.Invoices.Validators
             RuleFor(x=>x.Date).NotNull();
             RuleFor(x=>x.Form).NotEmpty().MinimumLength(3);
             RuleFor(x=>x.To).NotEmpty().MinimumLength(3);
-            RuleFor(x => x.InvoiceItems).NotNull();
+            RuleFor(x => x.InvoiceItems).SetValidator(new MusthaveInvoiceItemPropertyValidator());
+            //RuleFor(x => x.InvoiceItems).NotNull();  Remove if custom validator works !!
         }
     }
 }

@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Rl/DfxIDIbaIH/9c493msCDEnlBdYJMQ0IYW+pjyyYFwHUhY29AwZRGNFgI55zmBo+/1Vl2i15EO3R57Ulylcw==",
+  "dgSpecHash": "KmMKw/6HNptGqFvvpLlvDIODzWbjsQbhlSYnb3zaNgMV1ozn9DqUxMViN4F5AS0Zn9Q1lXhInedUbk4SURaJuw==",
   "success": true,
   "projectFilePath": "C:\\Users\\jazzy\\source\\repos\\Invoice-Management\\Invoice-Management.Application\\Invoice-Management.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jazzy\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\jazzy\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\jazzy\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\duende.identityserver\\5.2.0\\duende.identityserver.5.2.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\duende.identityserver.aspnetidentity\\5.2.0\\duende.identityserver.aspnetidentity.5.2.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\duende.identityserver.entityframework\\5.2.0\\duende.identityserver.entityframework.5.2.0.nupkg.sha512",
@@ -67,6 +66,7 @@
     "C:\\Users\\jazzy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "C:\\Users\\jazzy\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
@@ -79,16 +79,5 @@
     "C:\\Users\\jazzy\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512",
     "C:\\Users\\jazzy\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Duende.IdentityServer.EntityFramework.Storage 5.2.0 requires AutoMapper (>= 10.0.0 && < 11.0.0) but version AutoMapper 12.0.1 was resolved.",
-      "libraryId": "AutoMapper",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

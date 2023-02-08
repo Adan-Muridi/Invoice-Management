@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
+using NSwag;
+using NSwag.Generation.Processors.Security;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,11 +28,23 @@ var builder = WebApplication.CreateBuilder(args);
 
 //builder.Services.AddAuthentication()
 //    .AddIdentityServerJwt();
-builder.Services.AddSwaggerGen(); // Swagger not working properly
+
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 builder.Services.AddInfraStructure(builder.Configuration);
 builder.Services.AddApplication();
 
+builder.Services.AddOpenApiDocument(configure =>
+{
+    configure.Title = "InvoiceManagemet API";
+    configure.AddSecurity("JWT", Enumerable.Empty<string>(), new OpenApiSecurityScheme
+    {
+        Type = OpenApiSecuritySchemeType.ApiKey,
+        Name = "Authorization",
+        In = OpenApiSecurityApiKeyLocation.Header,
+        Description = "Type into the textbox: Bearer {your JWT token}."
+    });
+    configure.OperationProcessors.Add(new AspNetCoreOperationSecurityScopeProcessor("JWT"));
+});
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
@@ -40,9 +54,9 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger(); // Swagger not working properly
-    app.UseSwaggerUI();
     app.UseMigrationsEndPoint();
+    app.UseOpenApi();
+    app.UseSwaggerUi3();
 
     using (var scope = app.Services.CreateScope())
     {

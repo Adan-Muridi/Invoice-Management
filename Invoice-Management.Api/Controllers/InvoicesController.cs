@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Invoice_Management.Api.Controllers
 {
-    //[Route("api/[controller]")]
-    //[ApiController]
+    [Route("api/[controller]")]
+    [ApiController]
     //[Authorize]
     public class InvoicesController : BaseApiController
     {
